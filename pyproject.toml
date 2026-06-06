@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opensquilla-wrap"
+version = "0.1.0"
+description = "Python wrapper for OpenSquilla - token-efficient AI agent with local model router"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.9"
+authors = [{name = "q15004040209-creator"}]
+keywords = ["ai-agent", "llm", "token-efficient", "openrouter"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache License 2.0",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
